@@ -7,7 +7,7 @@ admin = User.create!(
   role: :admin
 )
 
-regular_user = User.create!(
+regular = User.create!(
   email: "sofiajara2677@gmail.com",
   password: "password",
   role: :regular
